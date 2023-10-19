@@ -1,0 +1,67 @@
+# This file predefines a few models that the user may want to install.
+sd-1/main/stable-diffusion-v1-5:
+   description: Stable Diffusion version 1.5 diffusers model (4.27 GB)
+   repo_id: runwayml/stable-diffusion-v1-5
+   recommended: False
+   default: True
+sd-1/main/stable-diffusion-inpainting:
+   description: RunwayML SD 1.5 model optimized for inpainting, diffusers version (4.27 GB)
+   repo_id: runwayml/stable-diffusion-inpainting
+   recommended: False
+sdxl/main/stable-diffusion-xl-base-1-0:
+   description: Stable Diffusion XL base model (12 GB; access token required)
+   repo_id: stabilityai/stable-diffusion-xl-base-1.0
+   recommended: True
+sdxl-refiner/main/stable-diffusion-xl-refiner-1-0:
+   description: Stable Diffusion XL refiner model (12 GB; access token required)
+   repo_id: stabilityai/stable-diffusion-xl-refiner-1.0
+   recommended: True
+sd-1/controlnet/canny:
+   repo_id: lllyasviel/control_v11p_sd15_canny
+   recommended: True
+sd-1/controlnet/inpaint:
+   repo_id: lllyasviel/control_v11p_sd15_inpaint
+   recommended: False
+sd-1/controlnet/mlsd:
+   repo_id: lllyasviel/control_v11p_sd15_mlsd
+   recommended: False
+sd-1/controlnet/depth:
+   repo_id: lllyasviel/control_v11f1p_sd15_depth
+   recommended: True
+sd-1/controlnet/normal_bae:
+   repo_id: lllyasviel/control_v11p_sd15_normalbae
+   recommended: False
+sd-1/controlnet/seg:
+   repo_id: lllyasviel/control_v11p_sd15_seg
+   recommended: False
+sd-1/controlnet/lineart:
+   repo_id: lllyasviel/control_v11p_sd15_lineart
+   recommended: False
+sd-1/controlnet/lineart_anime:
+   repo_id: lllyasviel/control_v11p_sd15s2_lineart_anime
+   recommended: False
+sd-1/controlnet/openpose:
+   repo_id: lllyasviel/control_v11p_sd15_openpose
+   recommended: False
+sd-1/controlnet/scribble:
+   repo_id: lllyasviel/control_v11p_sd15_scribble
+   recommended: False
+sd-1/controlnet/softedge:
+   repo_id: lllyasviel/control_v11p_sd15_softedge
+   recommended: False
+sd-1/controlnet/shuffle:
+   repo_id: lllyasviel/control_v11e_sd15_shuffle
+   recommended: False
+sd-1/controlnet/tile:
+   repo_id: lllyasviel/control_v11f1e_sd15_tile
+   recommended: False
+sd-1/controlnet/ip2p:
+   repo_id: lllyasviel/control_v11e_sd15_ip2p
+   recommended: False
+sd-1/embedding/EasyNegative:
+   path: https://huggingface.co/embed/EasyNegative/resolve/main/EasyNegative.safetensors
+   recommended: True
+sdxl/lora/Astfacetest1:
+   path: https://civitai.com/api/download/models/188828
+   recommended: True
+
